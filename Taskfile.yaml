@@ -1,7 +1,7 @@
 version: '3'
 
 vars:
-  imageUrl: ""
+  imageUrl: "https://avatars.githubusercontent.com/u/45462730?v=4"
   faviconUrl: ""
 tasks:
   default: ${GOTASK_BIN:-task} --list

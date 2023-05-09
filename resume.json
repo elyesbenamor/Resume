@@ -3,6 +3,7 @@
   "basics": {
     "name": "ELyess Ben Amor",
     "label": "Site Reliability Engineer",
+    "image": "https://avatars.githubusercontent.com/u/45462730?v=4",
     "email": "benamorelyes0@gmail.com",
     "summary": "Born and raised in Tunesia, I studied Infrastructure and Cloud Computing and got my Degree in 2020. My focus has been mainly on knowing cloud infrastructure but also got interested in IoT where I got introduced to DevOps and automation. During my studies I made diffrent projects where I managed Vms, setting up kubernetes cluster and monitoring my workloads. I am very open to learn new technologies as well as meet new experienced people and build knowledge together. ",
     "location": {
@@ -16,7 +17,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "linusfrotscher",
+        "username": "elyesbenamor",
         "url": "https://linkedin.com/in/ben-amor-elyes-8b6581161"
       }
     ]
