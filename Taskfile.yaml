@@ -1,0 +1,34 @@
+version: '3'
+
+vars:
+  imageUrl: ""
+  faviconUrl: ""
+tasks:
+  default: ${GOTASK_BIN:-task} --list
+  npmInstall:
+    desc: Perform npm install
+    cmds:
+      - npm install
+  yamlToJson:
+    desc: Converts the resume YAML file to JSON
+    cmds:
+      - yq --output-format=json --prettyPrint resume.yaml > resume.json
+  replaceImageUrl:
+    desc: Updates the image url in rendered/resume.html
+    cmds:
+      - sed --in-place 's|src="https://s.gravatar.com[^"]*"|src="{{.imageUrl}}"|g' rendered/resume.html
+  replaceFaviconUrl:
+    desc: Updates the image url in rendered/resume.html
+    cmds:
+      - sed --in-place 's|</title>|</title><link rel="icon" type="image/x-icon" href="{{.faviconUrl}}">|g' rendered/resume.html
+  exportHtml:
+    desc: Exports the resume in html format
+    cmds:
+      - npm run exportHtml
+  exportPdf:
+    desc: Exports the resume in pdf format.
+    deps:
+      - npmInstall
+      - yamlToJson
+    cmds:
+      - npm run exportPdf

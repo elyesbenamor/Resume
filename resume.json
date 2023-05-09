@@ -1,0 +1,243 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "ELyess Ben Amor",
+    "label": "Site Reliability Engineer",
+    "email": "benamorelyes0@gmail.com",
+    "summary": "Born and raised in Tunesia, I studied Infrastructure and Cloud Computing and got my Degree in 2020. My focus has been mainly on knowing cloud infrastructure but also got interested in IoT where I got introduced to DevOps and automation. During my studies I made diffrent projects where I managed Vms, setting up kubernetes cluster and monitoring my workloads. I am very open to learn new technologies as well as meet new experienced people and build knowledge together. ",
+    "location": {
+      "countryCode": "DE"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "elyesbenamor",
+        "url": "https://github.com/elyesbenamor"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "linusfrotscher",
+        "url": "https://linkedin.com/in/ben-amor-elyes-8b6581161"
+      }
+    ]
+  },
+  "volunteer": [
+    {
+      "organization": "ENACTUS",
+      "position": "Event Manager",
+      "startDate": "2018-09-01",
+      "summary": "create a better, more sustainable world",
+      "url": "https://enactus.org.tn/community/teams/15"
+    }
+  ],
+  "work": [
+    {
+      "name": "German Edge Cloud",
+      "position": "Site Reliability Engineer",
+      "startDate": "2023-03-01",
+      "summary": "With the cloud and the edge, the German Edge Cloud has two main markets it competes in. In the cloud, German Edge Cloud provides a managed kubernetes offering based on kkp from kubermatic. This in turn utilizes an openstack instance which manages infrastructure over three datacenters which belong to the company. In the edge market, they offer an edge enabling customers to self-service VMs on the edge through a management software developed by the German Edge Cloud. This is for example used by the Fraunhofer Institute to run compute intensive simulations.",
+      "highlights": [
+        "Maintaining multiple rancher instances providing cluster access management to the entire company. For this, rancher was set up and monitored. Additionally, all permission management is done through terraform.",
+        "Development of a production readiness review which is used to engage internal teams in a SRE manner.",
+        "Engaging internal development teams utilizing the previously outlined production readiness review enabling the teams to increase the reliability of their respective products.",
+        "Supporting the company's platform on many clusters and providing observabily.",
+        "Managing the operations center, a product used to provision openstack resources through a simplified UI on customer edges working with the openstack CLI to manage customer workloads.",
+        "Incident management including PMAs.",
+        "Providing a central ArgoCD used across many teams.",
+        "Automations using Argo Workflows."
+      ],
+      "url": "https://gec.io",
+      "location": "Dusseldorf, Deutschland"
+    },
+    {
+      "name": "Aifora GmbH",
+      "position": "DevOps Engineer",
+      "startDate": "2021-08-01",
+      "endDate": "2023-02-30",
+      "highlights": [
+        "Maintaining rancher instance providing cluster access management to the entire company and managing all permission management through terraform.",
+        "Lifecycle management of all AWS Instances using Ansible",
+        "Monitoring Workload using site24x7 and datadog.",
+        "CI/CD pipeline development",
+        "Provisioning all kubernetes resources and deploy customer platforms",
+        "Perform automation tasks using bash, ansible plugins"
+      ],
+      "url": "https://aifora.com/",
+      "location": "Dusseldorf, Deutschland"
+    },
+    {
+      "name": "Vorwaerts GmbH",
+      "position": "Intern DevOps Engineer",
+      "startDate": "2020-01-01",
+      "endDate": "2021-08-01",
+      "highlights": [
+        "Gain insights on microservices architectures and devops aspects",
+        "Developing Gitlab CI/CD pipelines",
+        "Setup Elasticsearch stack to monitor kubernetes pods metrics"
+      ],
+      "url": "https://www.vapa.ai",
+      "location": "Cologne, Deutschland"
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "National Engineering School of Tunis (ENIT)",
+      "area": "Converged infrastructure and cloud computing",
+      "startDate": "2017-09-01",
+      "endDate": "2020-02-28"
+    },
+    {
+      "institution": "Preparatory Institute for Engineering Studies of Nabeul (IPEIN)",
+      "area": "Preparatory Cycle Mathematics Physics and Engineering Science",
+      "startDate": "2014-09-01",
+      "endDate": "2017-06-28"
+    }
+  ],
+  "awards": [
+    {
+      "title": "IEEEXtreme 12.0",
+      "date": "2017-11-01",
+      "summary": "It´s a 24h worldwide problem solving competition. Ranked – 233/5155."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Container Orchestration",
+      "keywords": [
+        "Kubernetes",
+        "Swarm Mode for Docker"
+      ]
+    },
+    {
+      "name": "Observability",
+      "keywords": [
+        "Prometheus",
+        "Alertmanager",
+        "Loki",
+        "Grafana",
+        "Opensearch",
+        "Datadog"
+      ]
+    },{
+      "name": "Infrastructure as Code",
+      "keywords": [
+        "Terraform",
+        "ArgoCD",
+        "Argo Workflows",
+        "Gitlab",
+        "helm",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "keywords": [
+        "Gitlab",
+        "Jenkins",
+        "BItbucket"
+      ]
+    },
+    {
+      "name": "Virtualisation",
+      "keywords": [
+        "Vmware",
+        "Multipass",
+        "KVM"
+      ]
+    },
+    {
+      "name": "Carvel tools",
+      "keywords": [
+        "Vendor",
+        "ytt"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "Postgres",
+        "RDS"
+      ]
+    },
+    {
+      "name": "Development",
+      "keywords": [
+        "Node",
+        "Bash",
+        "Python"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Frensh",
+      "fluency": "Professional Working"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Video Games"
+    },
+    {
+      "name": "Camping"
+    },
+    {
+      "name": "Open Source"
+    }
+  ],
+  "projects": [
+    {
+      "name": "MPLS Network Emulation",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "ELK",
+        "Nagios",
+        "GNS3",
+        "VPN",
+        "Firewall"
+      ],
+      "startDate": "2019-08-01",
+      "endDate": "2020-01-24",
+      "url": "https://drive.google.com/file/d/1I8yrhBeG1FB4d1auVmIJyMaEUXczFBF9/view",
+      "entity": "Smoogle",
+      "type": "application"
+    },
+    {
+      "name": "Fog Computing",
+      "description": "Deploying a Container-Based Fog Solution.",
+      "highlights": [
+      "IoT solution based on the Fog Computing model and using an architecture of containerized microservices",
+      "Modelling a home automation using raspberrypi 3"
+      ],
+      "keywords": [
+        "IoT",
+        "Docker",
+        "Rsapberrypi"
+      ],
+      "startDate": "2018-08-01",
+      "endDate": "2019-01-24",
+      "url": "https://drive.google.com/drive/u/1/folders/15tkrFPEe7IIvEabGskNOhAOqtRQNBwxX",
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
