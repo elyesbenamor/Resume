@@ -13,6 +13,10 @@ tasks:
     desc: Converts the resume YAML file to JSON
     cmds:
       - yq --output-format=json --prettyPrint resume.yaml > resume.json
+  jsonToyaml:
+    desc: Converts the resume json file to yaml
+    cmds:
+      - yq --output-format=yaml --prettyPrint resume.json > resume.yaml
   replaceImageUrl:
     desc: Updates the image url in rendered/resume.html
     cmds:

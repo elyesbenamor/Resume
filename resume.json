@@ -23,19 +23,10 @@
       {
         "network": "Medium",
         "username": "ebenamor",
-        "url": "ebenamor.medium.com"
+        "url": "https://ebenamor.medium.com"
       }
     ]
   },
-  "volunteer": [
-    {
-      "organization": "ENACTUS",
-      "position": "Event Manager",
-      "startDate": "2018-09-01",
-      "summary": "create a better, more sustainable world",
-      "url": "https://enactus.org.tn/community/teams/15"
-    }
-  ],
   "work": [
     {
       "name": "German Edge Cloud",
@@ -100,78 +91,25 @@
       "endDate": "2017-06-28"
     }
   ],
-  "awards": [
-    {
-      "title": "IEEEXtreme 12.0",
-      "date": "2017-11-01",
-      "summary": "It´s a 24h worldwide problem solving competition. Ranked – 233/5155."
-    }
-  ],
   "skills": [
     {
-      "name": "Container Orchestration",
       "keywords": [
         "Kubernetes",
-        "Swarm Mode for Docker"
-      ]
-    },
-    {
-      "name": "Observability",
-      "keywords": [
         "Prometheus",
         "Alertmanager",
         "Loki",
         "Grafana",
         "Opensearch",
-        "Datadog"
-      ]
-    },{
-      "name": "Infrastructure as Code",
-      "keywords": [
+        "Datadog",
         "Terraform",
         "ArgoCD",
         "Argo Workflows",
         "Gitlab",
         "helm",
-        "Ansible"
-      ]
-    },
-    {
-      "name": "CI/CD",
-      "keywords": [
-        "Gitlab",
-        "Jenkins",
-        "BItbucket"
-      ]
-    },
-    {
-      "name": "Virtualisation",
-      "keywords": [
-        "Vmware",
-        "Multipass",
-        "KVM"
-      ]
-    },
-    {
-      "name": "Carvel tools",
-      "keywords": [
-        "Vendor",
-        "ytt"
-      ]
-    },
-    {
-      "name": "Databases",
-      "keywords": [
+        "Ansible",
+        "Swarm Mode for Docker",
         "Postgres",
         "RDS"
-      ]
-    },
-    {
-      "name": "Development",
-      "keywords": [
-        "Node",
-        "Bash",
-        "Python"
       ]
     }
   ],
@@ -189,15 +127,25 @@
       "fluency": "Professional Working"
     }
   ],
-  "interests": [
+  "awards": [
     {
-      "name": "Video Games"
+      "title": "cks",
+      "date": "2023-11-24",
+      "summary": "Certified Kubernetes Security Specialist"
+    },{
+      "title": "cka",
+      "date": "2023-10-27",
+      "summary": "Certified Kubernetes Administrator"
     },
     {
-      "name": "Camping"
+      "title": "Vault Associate",
+      "date": "2023-11-14",
+      "summary": "HashiCorp Certified: Vault Associate (002)"
     },
     {
-      "name": "Open Source"
+      "title": "Terraform Associate",
+      "date": "2023-11-06",
+      "summary": "HashiCorp Certified: Terraform Associate (003)"
     }
   ],
   "projects": [
